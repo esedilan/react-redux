@@ -49,4 +49,8 @@ export function createStoreHook<
  *   return <div>{store.getState()}</div>
  * }
  */
-export const useStore = /*#__PURE__*/ createStoreHook()
+export const useStore = /*#__PURE__*/ createStore()
+export const useStore = createStoreHook();
+
+
+}}}}
